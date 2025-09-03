@@ -1,0 +1,15 @@
+﻿Printer:	400700
+TaskId:	69c6f5cb-11cb-411e-a93f-b71750fe784f
+StartTime:	2025-08-26 11:12:42
+EndTime:	2025-08-26 14:01:32
+PrintingPeriod:	0.02:47:41
+TotalCount:	1
+Completed:	True
+UserCanceled:	False
+CompletedCount:	1
+SlicedHeight(mm):	29.35
+PrintedHeight(mm):	29.95
+PrintedVolume(mm3):	271876.5
+
+ModelList:
+	3.stl	x 1	(\\10.10.8.59\ttt\PRISUM LAB PRINTING\3.stl)
