@@ -5,7 +5,7 @@ machine-utilisation-reporter or factory-utilisation-dashboard.
 
 A Python-based tool to analyze machine log files, calculate runtime/utilisation, and generate Excel reports with raw data, daily summaries, and a dashboard chart.
 
-✨ Features
+✨ **Features**
 
 ✅ Parse machine log files (.txt) for StartTime, EndTime, and Runtime
 ✅ Map logs to machine IDs automatically
@@ -14,7 +14,7 @@ A Python-based tool to analyze machine log files, calculate runtime/utilisation,
 ✅ Generate a multi-sheet Excel report with raw data, summary, and dashboard
 ✅ Visualise utilisation with an Excel Bar Chart
 
-📂 Project Structure
+📂 **Project Structure**
 machine-utilisation-reporter/
 │── daily_utilisation.py   # Main script
 │── requirements.txt       # Python dependencies
@@ -24,25 +24,26 @@ machine-utilisation-reporter/
 
 ⚙️ Installation
 
-Clone the repository:
+**Clone the repository:**
 
 git clone https://github.com/<your-username>/machine-utilisation-reporter.git
+
 cd machine-utilisation-reporter
 
 
-Create a virtual environment (optional but recommended):
+**Create a virtual environment (optional but recommended):**
 
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
 
-Install dependencies:
+**Install dependencies:**
 
 pip install -r requirements.txt
 
 
-📝 Usage
+**📝 Usage**
 
 Place all machine log files (.txt) inside a folder (e.g., sample_logs/).
 
@@ -51,7 +52,7 @@ Run the script:
 python daily_utilisation.py sample_logs
 
 
-The tool will generate an Excel report:
+**The tool will generate an Excel report:**
 
 Daily_Report_YYYY-MM-DD.xlsx
 
@@ -63,7 +64,7 @@ Summary: Daily utilisation per machine
 
 Dashboard: Chart showing machine utilisation %
 
-🛠 Dependencies
+**🛠 Dependencies**
 
 Python 3.8+
 
@@ -73,7 +74,7 @@ openpyxl
 
 matplotlib
 
-Install via:
+**Install via:**
 
 pip install pandas openpyxl matplotlib
 
